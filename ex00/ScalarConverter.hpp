@@ -3,21 +3,12 @@
 
 #include	<string>
 
-#define		CHAR 1
-#define		INT 2
-#define		DOUBLE 3
-#define		FLOAT 4
-#define		ERROR 5
+#define		OK 0
+#define		ERROR 1
 
 class	ScalarConverter
 {
 	private:
-
-		int		type;
-		int		int_literal;
-		float	float_literal;
-		double	double_literal;
-		char	char_literal;
 
 		ScalarConverter();
 		ScalarConverter	&operator=(const ScalarConverter &other);

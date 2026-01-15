@@ -1,6 +1,6 @@
 COMPILE = c++ -g -Wall -Wextra -Werror -std=c++98 -fPIE
-NAME = convert
-SRCS = main.cpp ScalarConverter.cpp
+NAME = serializer
+SRCS = main.cpp Serializer.cpp
 OBJS_FOLDER = obj
 OBJS = $(SRCS:%.cpp=$(OBJS_FOLDER)/%.o)
 
